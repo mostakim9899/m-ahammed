@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/stu.css">
+    <title>Fixed Navbar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <a href="/" class="logo">Mostakim Ahammed</a>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#ss1">Services</a></li>
+                </ul>
+                
+            </nav>
+        </header>
+
+        <div class="hs">
+            <h1>New To This Website</h1>
+            <h2>Stay With Us!</h2>
+           <a href="/"> <button type="button">Signup</button></a>
+
+        </div>
+    </div>
+    
+
+    <div id="sh">
+         <h2>Services</h2>
+    </div> 
+    
+        <div id="services">
+        
+        <div id="s1">
+                <h2>Web Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus aliquid error, laudantium voluptatum odio quas rem eos quam, non modi amet a autem molestias iusto aspernatur perferendis sit tempora odit.</p>
+            
+            </div>
+            <section id="ss1"></section>
+                
+            <div class="s2">
+                <h2>Graffix Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quos fugit aut laudantium praesentium velit officia, sint ullam, molestiae quaerat consequuntur incidunt, similique excepturi expedita quam! Laboriosam expedita quo esse.</p>
+            </div>
+
+            <div class="s3">
+                <h2>Video Editing</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, sequi ad! Rerum odit accusamus magnam excepturi, placeat non harum nulla officia autem vel, consectetur, eaque ducimus. Voluptatem eius eligendi adipisci.</p>
+                
+            </div>
+        </div>
+    
+
+        
+    
+
+
+   
+    <script>
+        window.onscroll = () => {
+            var nav  = document.querySelector('nav');
+            
+            if (window.pageYOffset > 0) {
+                nav.classList.add("sticky")
+            } 
+            else {
+                nav.classList.remove("sticky");
+            }
+        }
+
+
+    </script>
+</body>
+</html>
